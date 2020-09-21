@@ -3,7 +3,7 @@ const dark = {
     colors: {
         primary: '',
         secondary: '',
-        backgroundColor: '#2b2d42',
+        backgroundColor: '#e5e5e5',
         buttonPrimary: '#ff006e',
         buttonText: '#fff',
         green: '',
@@ -11,6 +11,8 @@ const dark = {
         purple: '',
         inputBackground: '#F3F2F2',
         textBase: '#A09A9A',
+        pink: '#fa4750',
+        yellow: '#F0E618',
     }
 }
 

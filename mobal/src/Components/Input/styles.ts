@@ -18,6 +18,6 @@ export const InputText = styled.TextInput`
     width: 100%;
     max-width: 320px;
     border-radius: 8px;
-    padding: 8px 60px;
+    padding: 10px 60px;
     background-color: ${props => props.theme.colors.inputBackground};
 `;

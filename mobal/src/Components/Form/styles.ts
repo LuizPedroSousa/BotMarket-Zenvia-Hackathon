@@ -2,12 +2,13 @@ import styled from 'styled-components/native';
 
 export const Container = styled.View`
     padding: 30px 30px 0;
+    margin: 20px 0;
     width: 90%;
     height: 350px;
     justify-content: center;
     align-items: center;
-    background-color: ${props => props.theme.colors.backgroundColor};
-    border-radius: 8px;
+    border-radius: 16px;
+    background-color: #5a189a;
 `;
 
 export const Button = styled.TouchableOpacity`

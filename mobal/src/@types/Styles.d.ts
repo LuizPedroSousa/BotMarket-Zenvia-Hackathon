@@ -12,6 +12,8 @@ declare module 'styled-components' {
             purple: string,
             inputBackground: string,
             textBase: string,
+            pink: string,
+            yellow: string,
         }
     }
 }

@@ -3,14 +3,16 @@ const light = {
     colors: {
         primary: '',
         secondary: '',
-        backgroundColor: '#2b2d42',
+        backgroundColor: '#e5e5e5',
         buttonPrimary: '#ff006e',
         buttonText: '#fff',
-        green: '',
-        black: '',
-        purple: '',
+        green: '#00f5d4',
+        black: '#2b2d42',
+        purple: '#8338ec',
         inputBackground: '#F3F2F2',
         textBase: '#A09A9A',
+        pink: '#fa4750',
+        yellow: '#F0E618',
     }
 }
 
