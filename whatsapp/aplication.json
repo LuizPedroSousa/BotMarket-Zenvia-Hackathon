@@ -1,0 +1,14 @@
+{
+    "id": "string",
+    "from": "string",
+    "to": "string",
+    "direction": "IN",
+    "channel": "string",
+    "contents": [
+      {
+        "type": "string",
+        "text": "string",
+        "payload": "string"
+      }
+    ]
+  }
