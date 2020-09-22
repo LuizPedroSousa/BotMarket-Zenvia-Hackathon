@@ -8,7 +8,7 @@ import {
   ProductsContent,
 } from './styles';
 
-import AllProducts from '../../Utils/ContextApi/AllProducts';
+import AllProducts from '../../Utils/Datas/AllProducts';
 
 interface ProductProps {
   item: typeof AllProducts[0];

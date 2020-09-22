@@ -7,24 +7,12 @@ export const Wrapper = styled.SafeAreaView`
 `;
 
 export const Container = styled.View`
+    flex: 1;
     align-items:flex-start;
     justify-content:center;
 `;
 
 export const Main = styled.View`
+    flex: 1;
     padding: 14px;
-`;
-
-export const Heading = styled.Text`
-    margin: 0 0 14px;
-    font-size: 46px;
-    font-family: Archivo700;
-    color: ${props => props.theme.colors.black};
-`;
-
-export const Title = styled.Text`
-    margin: 0 0 16px;
-    font-size: 16px;
-    font-family: Poppins600;
-    color: ${props => props.theme.colors.textBase};
 `;

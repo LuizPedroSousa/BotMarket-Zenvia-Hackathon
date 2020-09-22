@@ -1,14 +1,15 @@
 import React, { useMemo } from 'react';
 import { FlatList } from 'react-native-gesture-handler';
+import Header from '../../Components/Header';
 import Products from '../../Components/Products';
 import ProductsCaroulsel from '../../Components/ProductsCaroulsel';
+import Heading from '../../Components/SmallComponents/Heading';
+import Title from '../../Components/SmallComponents/Title';
 
 import {
   Wrapper,
   Container,
   Main,
-  Heading,
-  Title,
 } from './styles';
 interface Item {
   key: string;
@@ -52,6 +53,7 @@ const Stock: React.FC = () => {
   }, [])
   return (
     <Wrapper>
+      <Header />
       <Container>
         <Main>
           <FlatList<Item>

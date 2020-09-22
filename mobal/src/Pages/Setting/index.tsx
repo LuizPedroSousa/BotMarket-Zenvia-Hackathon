@@ -1,6 +1,8 @@
 import React, { useMemo } from 'react';
 import { FlatList, Text } from 'react-native';
-import { Heading, Title } from '../Stock/styles';
+import Header from '../../Components/Header';
+import Heading from '../../Components/SmallComponents/Heading';
+import Title from '../../Components/SmallComponents/Title';
 
 import {
   Container,
@@ -47,6 +49,7 @@ const Setting: React.FC = () => {
   }, [])
   return (
     <Wrapper>
+      <Header />
       <Container>
         <Main>
           <FlatList<Item>

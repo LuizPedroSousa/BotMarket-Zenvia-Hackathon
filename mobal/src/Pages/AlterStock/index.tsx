@@ -1,31 +1,31 @@
-import React, { useContext } from 'react';
+import React, { useMemo } from 'react';
 import { FlatList, Text } from 'react-native';
-import { Heading, Title } from '../Stock/styles';
 import {
   Container,
   Main,
   Wrapper,
 } from './styles';
 
-import { ThemeContext } from 'styled-components';
-import { useMemo } from 'react';
 import Plus from '../../Components/Plus';
-
+import Header from '../../Components/Header';
+import Heading from '../../Components/SmallComponents/Heading';
+import Title from '../../Components/SmallComponents/Title';
 interface Item {
   key: string;
   render: JSX.Element;
   isTitle: boolean;
 }
 const AlterStock: React.FC = () => {
+  //Memos
   const { data, indexes } = useMemo(() => {
     const Items: Item[] = [
       {
         key: "Page_Heading",
-        render: () => <Heading>Estoque</Heading>,
+        render: () => <Heading>Alterar Estoque</Heading>,
       },
       {
         key: 'Recent_Produtcts',
-        render: () => <Title>Produtos Recentes</Title>,
+        render: () => <Title>Todos os produtos</Title>,
         isTitle: true,
       },
       {
@@ -44,6 +44,7 @@ const AlterStock: React.FC = () => {
   }, [])
   return (
     <Wrapper>
+      <Header />
       <Container>
         <Main>
           <FlatList<Item>

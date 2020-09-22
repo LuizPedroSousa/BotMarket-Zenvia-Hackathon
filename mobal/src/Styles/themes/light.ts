@@ -1,8 +1,8 @@
 const light = {
     title: 'light',
     colors: {
-        primary: '',
-        secondary: '',
+        primary: '#00bbf9',
+        secondary: '#ffbe0b',
         backgroundColor: '#e5e5e5',
         buttonPrimary: '#ff006e',
         buttonText: '#fff',

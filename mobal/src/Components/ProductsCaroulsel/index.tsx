@@ -8,7 +8,7 @@ import {
   Product,
 } from './styles';
 import Caroulsel from 'react-native-snap-carousel';
-import data from '../../Utils/data';
+import data from '../../Utils/Datas/data';
 import * as animatable from 'react-native-animatable';
 
 interface ProductProps {
@@ -37,9 +37,11 @@ const ProductsCaroulsel: React.FC = () => {
       useNativeDriver={true}
     >
       <Caroulsel
+        layout="default"
         data={data}
         renderItem={ProductItem}
         sliderWidth={350}
+        fadingEdgeLength={20}
         sliderHeight={350}
         itemWidth={300}
         autoplay={true}

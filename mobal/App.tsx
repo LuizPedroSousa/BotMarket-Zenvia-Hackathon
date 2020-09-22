@@ -48,7 +48,7 @@ export default function App() {
                   >
                     <Routers />
                     <StatusBar
-                      style={theme.theme.title == 'dark' ? 'light' : 'dark'}
+                      style={theme.theme.title == 'dark' ? 'dark' : 'light'}
                     />
                   </ThemeProvider>
                 );
