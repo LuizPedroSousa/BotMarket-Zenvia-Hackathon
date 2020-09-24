@@ -9,7 +9,7 @@ import { ThemeContext } from 'styled-components';
 const Routers: React.FC = () => {
     const { colors, title } = useContext(ThemeContext);
     const Stack = createStackNavigator();
-    const [token, setToken] = useState('3');
+    const [token, setToken] = useState('');
     useEffect(() => {
         const tokenAt = AsyncStorage.getItem('token');
         setToken(`${tokenAt}`);

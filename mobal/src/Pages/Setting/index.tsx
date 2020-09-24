@@ -1,7 +1,8 @@
-import React, { useMemo } from 'react';
-import { FlatList, Text } from 'react-native';
+import React, { useContext, useMemo } from 'react';
+import { FlatList } from 'react-native';
 import Header from '../../Components/Header';
 import Heading from '../../Components/SmallComponents/Heading';
+import Themes from '../../Components/SmallComponents/Themes';
 import Title from '../../Components/SmallComponents/Title';
 
 import {
@@ -10,12 +11,18 @@ import {
   Wrapper,
 } from './styles';
 
+import CardContext from '../../Utils/ContextApi/Card/context';
+
 interface Item {
   key: string;
   render: () => JSX.Element;
   isTitle?: boolean;
 }
 const Setting: React.FC = () => {
+  //Contexts
+  const { setViewCard } = useContext(CardContext);
+
+  //Memos
   const { data, indexes } = useMemo(() => {
     const Items: Item[] = [
       {
@@ -23,20 +30,14 @@ const Setting: React.FC = () => {
         render: () => <Heading>Configurações</Heading>,
       },
       {
-        key: 'Recent_Produtcts',
-        render: () => <Title>Themes</Title>,
+        key: 'Themes',
+        render: () => <Title onPress={setViewCard}>Themes</Title>,
         isTitle: true,
       },
       {
-        key: 'Recent_Produtcts',
-        render: () => <Title>Dark</Title>,
-        isTitle: true,
-      },
-      {
-        key: 'Recent_Produtcts',
-        render: () => <Title>Light</Title>,
-        isTitle: true,
-      },
+        key: 'Card',
+        render: () => <Themes />
+      }
     ]
 
     const indexes: number[] = [];
