@@ -43,7 +43,8 @@ Once registered, the user will be able to create a shopping cart, so that he can
 - React Native
 - Styled Components
 
-- Typescript
+- Typescript to Mobal
+- Javascript to Backend
 
 - Node Js
 - Mysql
