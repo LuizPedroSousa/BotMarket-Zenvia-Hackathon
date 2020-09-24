@@ -1,17 +1,23 @@
 # BotMarket
 
-BotMarket é um novo canal de compras de supermercados online, utilizando o canal de comunicações do WhatsApp atrelado a um sistema de chatbot disponibilizado pela Zenvia.
+🚀BotMarket is a new online supermarket shopping channel, using the WhatsApp communications channel linked to a chatbot system provided by Zenvia.🚀
 
-## Como instalar
+## Get Started
 
-**Requisitos**:
+**Requests**:
 
 - NodeJS
-- NPM ou YARN
+- NPM or YARN
 - Expo-Cli
 - MySQL
 
-Para instalar basta iniciar dois terminais, em ambos, entre na pasta do projeto. No primeiro, entre na pasta do backend com `cd Backend`, após isso execute `npm install` ou `yarn`, e, por fim, basta dar `npm start` ou `yarn start`, porém para que tudo funcione, é necessário configurar o banco de dados e as variáveis de ambientes, por isso crie um banco de dados mysql, preencha as variáveis de ambiente que dizem ao banco de dados, e rode no terminal `npx knex migrate:latest` ou `yarn knex migrate:latest`, com isso o banco será configurado, em relação a variável de ambiente `SECRET_KEY`, seria interessante que essa variável fosse um hash aleatório, por isso rode `node generateHash.js`, onde va printar no terminal um hash aleatório, você pode usar ele nessa variável, com isso, o `yarn start` vai funcionar totalmente. Depois disso, vá para o segundo terminal e abra entre na pasta Mobal com `cd Mobal`, depois instale as depedencias com `yarn`, e rode `yarn start`, isso abrirá uma página web com o código QR que você deverá ler pelo seu celular com o aplicativo do expo. Com isso, deverá funcionar normalmente o seu app mobile.
+**In terminal Run**
+- `cd desktop` to enter in folder
+- `git clone https://github.com/LuizPedroSousa/BotMarket.git` to clone this repository
+- `cd BotMarket` to enter in folder
+- `cd backend or cd mobal` to start server or Mobal-app
+
+& appreciate 😸
 
 ## Como funciona
 
