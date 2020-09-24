@@ -22,7 +22,9 @@
 - `cd desktop` to enter in folder
 - `git clone https://github.com/LuizPedroSousa/BotMarket.git` to clone this repository
 - `cd BotMarket` to enter in folder
-- `cd backend or cd mobal` to start server or Mobal-app
+- `npm install` to add all packages
+- `cd backend or cd mobal` to enter in folder
+- `npm or yarn start` to init server or mobal
 
 & appreciate 😸
 
