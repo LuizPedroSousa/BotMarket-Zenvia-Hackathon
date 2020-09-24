@@ -1,13 +1,13 @@
 <h1 align="center">
   <img src="./mobal/assets/icon.svg"/>
-<h1>
+</h1>
  
 
 🚀
   BotMarket is a new online supermarket shopping channel, 
   using the WhatsApp communications channel
   linked to a chatbot system provided by Zenvia.
-  🚀
+🚀
 ## Get Started
 
 **Requests**:
