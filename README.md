@@ -1,5 +1,6 @@
 <h1 align="center">
   <img src="./mobal/assets/icon.svg"/>
+  <h3 align="center">Bot Market</h3>
 </h1>
  
 
