@@ -19,13 +19,17 @@
 - Expo-Cli
 - MySQL
 
-**In terminal Run**
+**Clone**
 - `cd desktop` to enter in folder
 - `git clone https://github.com/LuizPedroSousa/BotMarket.git` to clone this repository
+
+**Installation**
 - `cd BotMarket` to enter in folder
 - `npm install` to add all packages
+
+**Usage**
 - `cd backend or cd mobal` to enter in folder
-- `npm or yarn start` to init server or mobal
+- `npm or yarn start` to init this application
 
 & appreciate 😸
 
